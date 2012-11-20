@@ -1,0 +1,19 @@
+.mCheckbox {
+  margin-right: 7px;
+}
+
+#results {
+  display: -webkit-box;
+}
+
+.checked {
+  color: green;
+}
+
+.unchecked {
+  color: black;
+}
+
+.red_color {
+  color: red;
+}

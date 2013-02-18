@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://jira.sophiaapp.com/browse/*"],
+      "matches": ["https://sophia.atlassian.net/browse/*"],
       "js": ["jquery-1.8.2.min.js", "main.js", "script.js"],
       "css": ["style.css"]
     }

@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function afterLoad(){
   var check_box = document.getElementById('red_color');
+  var check = localStorage.getItem('red_color');
 
   chrome.storage.local.get('red_color', function(items){
     var check = items.red_color;

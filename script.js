@@ -7,6 +7,7 @@ var need_red_color = false;
 window.addEventListener('load', function() {
   var contentBody = document.getElementById('description-val');
   contentBody.classList.remove('inactive');
+  contentBody.removeAttribute('title')
 }, false);
 
 
